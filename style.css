@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@100;300;400;500;600&family=Silkscreen&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', cursive;
+    /* background-color: rgba(0, 195, 255, 0.751); */
+    background-color: #6A2C70;
+}
+
+.navbar{
+    background-color: #6A2C70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+    word-spacing: 20px;
+}
+
+.navbar h1{
+    background-color: #F9ED69;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.container{
+    background-color: #F9ED69;
+    /* display: inline-block; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 30px;
+    line-height: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px;
+}
+
+.btn{
+    font-family: 'Silkscreen', cursive;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    background-color: #6A2C70;
+    color: white;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.btn-1:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-3:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.won,.lost,.rock,.scissor,.paper{
+    background-color: #F08A5D;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.fa-refresh{
+    background-color: #F08A5D;
+    border-radius: 10px;
+    padding: 10px;
+}
